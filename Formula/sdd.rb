@@ -2,6 +2,7 @@ class Sdd < Formula
     desc "API First Solution for gRPC Service Development."
     homepage "https://skemaloop.dev/"
     url "https://skemaloop.dev/scripts/sdd_install.sh"
+    version "0.0.1"
   
     def install
         system "echo", "hello"
