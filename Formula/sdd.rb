@@ -5,7 +5,7 @@ class Sdd < Formula
     version "0.0.1"
   
     def install
-        system "echo", "hello"
+        system "/sdd_install.sh"
 
     #   (buildpath/"gobootstrap").install resource("gobootstrap")
     #   ENV["GOROOT_BOOTSTRAP"] = buildpath/"gobootstrap"
